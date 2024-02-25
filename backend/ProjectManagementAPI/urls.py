@@ -3,10 +3,9 @@ from .views import *
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register('project', ProjectViewSet, basename='project')
+router.register('api/project', ProjectViewSet, basename='project')
 urlpatterns = router.urls
 
 urlpatterns = [
-    # Other URL patterns...
-    path('api/', include(router.urls)),
+    path('', include(router.urls)),
 ]
