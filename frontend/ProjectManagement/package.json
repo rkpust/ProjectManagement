@@ -14,8 +14,11 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.8",
     "@mui/material": "^5.15.7",
+    "@mui/x-date-pickers": "^6.19.5",
+    "dayjs": "^1.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
     "react-router-dom": "^6.22.0"
   },
   "devDependencies": {
